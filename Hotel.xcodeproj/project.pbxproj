@@ -7,48 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		660604CF2A092091008C728F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660604CE2A092091008C728F /* AppDelegate.swift */; };
-		660604D12A092091008C728F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660604D02A092091008C728F /* ViewController.swift */; };
-		660604D42A092091008C728F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660604D22A092091008C728F /* Main.storyboard */; };
-		660604D72A092091008C728F /* Hotel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 660604D52A092091008C728F /* Hotel.xcdatamodeld */; };
-		660604D92A092094008C728F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660604D82A092094008C728F /* Assets.xcassets */; };
-		660604DC2A092094008C728F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660604DA2A092094008C728F /* LaunchScreen.storyboard */; };
-		660604E72A092094008C728F /* HotelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660604E62A092094008C728F /* HotelTests.swift */; };
+		6698D7AC2A094F6500EFE5FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6698D7AB2A094F6500EFE5FA /* AppDelegate.swift */; };
+		6698D7AE2A094F6500EFE5FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6698D7AD2A094F6500EFE5FA /* ViewController.swift */; };
+		6698D7B12A094F6500EFE5FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6698D7AF2A094F6500EFE5FA /* Main.storyboard */; };
+		6698D7B32A094F6900EFE5FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6698D7B22A094F6800EFE5FA /* Assets.xcassets */; };
+		6698D7B62A094F6900EFE5FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6698D7B42A094F6900EFE5FA /* LaunchScreen.storyboard */; };
+		6698D7C12A094F6900EFE5FA /* Management_BillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6698D7C02A094F6900EFE5FA /* Management_BillTests.swift */; };
+		6698D7CC2A094F6900EFE5FA /* Management_BillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6698D7CB2A094F6900EFE5FA /* Management_BillUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		660604E32A092094008C728F /* PBXContainerItemProxy */ = {
+		6698D7BD2A094F6900EFE5FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 660604C32A092091008C728F /* Project object */;
+			containerPortal = 6698D7A02A094F6400EFE5FA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 660604CA2A092091008C728F;
-			remoteInfo = Hotel;
+			remoteGlobalIDString = 6698D7A72A094F6400EFE5FA;
+			remoteInfo = "Management Bill";
+		};
+		6698D7C82A094F6900EFE5FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6698D7A02A094F6400EFE5FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6698D7A72A094F6400EFE5FA;
+			remoteInfo = "Management Bill";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		660604CB2A092091008C728F /* Hotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		660604CE2A092091008C728F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		660604D02A092091008C728F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		660604D32A092091008C728F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		660604D62A092091008C728F /* Hotel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hotel.xcdatamodel; sourceTree = "<group>"; };
-		660604D82A092094008C728F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		660604DB2A092094008C728F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		660604DD2A092094008C728F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		660604E22A092094008C728F /* HotelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		660604E62A092094008C728F /* HotelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelTests.swift; sourceTree = "<group>"; };
-		660604E82A092094008C728F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6698D7A82A094F6500EFE5FA /* Hotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6698D7AB2A094F6500EFE5FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6698D7AD2A094F6500EFE5FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6698D7B02A094F6500EFE5FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6698D7B22A094F6800EFE5FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6698D7B52A094F6900EFE5FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6698D7B72A094F6900EFE5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6698D7BC2A094F6900EFE5FA /* HotelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6698D7C02A094F6900EFE5FA /* Management_BillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Management_BillTests.swift; sourceTree = "<group>"; };
+		6698D7C22A094F6900EFE5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6698D7C72A094F6900EFE5FA /* HotelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6698D7CB2A094F6900EFE5FA /* Management_BillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Management_BillUITests.swift; sourceTree = "<group>"; };
+		6698D7CD2A094F6900EFE5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		660604C82A092091008C728F /* Frameworks */ = {
+		6698D7A52A094F6400EFE5FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		660604DF2A092094008C728F /* Frameworks */ = {
+		6698D7B92A094F6900EFE5FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6698D7C42A094F6900EFE5FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,113 +74,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		660604C22A092091008C728F = {
+		6698D79F2A094F6400EFE5FA = {
 			isa = PBXGroup;
 			children = (
-				660604CD2A092091008C728F /* Hotel */,
-				660604E52A092094008C728F /* HotelTests */,
-				660604CC2A092091008C728F /* Products */,
+				6698D7AA2A094F6500EFE5FA /* Hotel */,
+				6698D7BF2A094F6900EFE5FA /* HotelTests */,
+				6698D7CA2A094F6900EFE5FA /* HotelUITests */,
+				6698D7A92A094F6500EFE5FA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		660604CC2A092091008C728F /* Products */ = {
+		6698D7A92A094F6500EFE5FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				660604CB2A092091008C728F /* Hotel.app */,
-				660604E22A092094008C728F /* HotelTests.xctest */,
+				6698D7A82A094F6500EFE5FA /* Hotel.app */,
+				6698D7BC2A094F6900EFE5FA /* HotelTests.xctest */,
+				6698D7C72A094F6900EFE5FA /* HotelUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		660604CD2A092091008C728F /* Hotel */ = {
+		6698D7AA2A094F6500EFE5FA /* Hotel */ = {
 			isa = PBXGroup;
 			children = (
-				660604F12A092122008C728F /* SystemFiles */,
-				660604D02A092091008C728F /* ViewController.swift */,
-				660604D22A092091008C728F /* Main.storyboard */,
+				6698D7AB2A094F6500EFE5FA /* AppDelegate.swift */,
+				6698D7AD2A094F6500EFE5FA /* ViewController.swift */,
+				6698D7AF2A094F6500EFE5FA /* Main.storyboard */,
+				6698D7B22A094F6800EFE5FA /* Assets.xcassets */,
+				6698D7B42A094F6900EFE5FA /* LaunchScreen.storyboard */,
+				6698D7B72A094F6900EFE5FA /* Info.plist */,
 			);
 			path = Hotel;
 			sourceTree = "<group>";
 		};
-		660604E52A092094008C728F /* HotelTests */ = {
+		6698D7BF2A094F6900EFE5FA /* HotelTests */ = {
 			isa = PBXGroup;
 			children = (
-				660604E62A092094008C728F /* HotelTests.swift */,
-				660604E82A092094008C728F /* Info.plist */,
+				6698D7C02A094F6900EFE5FA /* Management_BillTests.swift */,
+				6698D7C22A094F6900EFE5FA /* Info.plist */,
 			);
 			path = HotelTests;
 			sourceTree = "<group>";
 		};
-		660604F12A092122008C728F /* SystemFiles */ = {
+		6698D7CA2A094F6900EFE5FA /* HotelUITests */ = {
 			isa = PBXGroup;
 			children = (
-				660604D52A092091008C728F /* Hotel.xcdatamodeld */,
-				660604CE2A092091008C728F /* AppDelegate.swift */,
-				660604DD2A092094008C728F /* Info.plist */,
-				660604DA2A092094008C728F /* LaunchScreen.storyboard */,
-				660604D82A092094008C728F /* Assets.xcassets */,
+				6698D7CB2A094F6900EFE5FA /* Management_BillUITests.swift */,
+				6698D7CD2A094F6900EFE5FA /* Info.plist */,
 			);
-			name = SystemFiles;
+			path = HotelUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		660604CA2A092091008C728F /* Hotel */ = {
+		6698D7A72A094F6400EFE5FA /* Hotel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 660604EB2A092094008C728F /* Build configuration list for PBXNativeTarget "Hotel" */;
+			buildConfigurationList = 6698D7D02A094F6900EFE5FA /* Build configuration list for PBXNativeTarget "Hotel" */;
 			buildPhases = (
-				660604C72A092091008C728F /* Sources */,
-				660604C82A092091008C728F /* Frameworks */,
-				660604C92A092091008C728F /* Resources */,
+				6698D7A42A094F6400EFE5FA /* Sources */,
+				6698D7A52A094F6400EFE5FA /* Frameworks */,
+				6698D7A62A094F6400EFE5FA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Hotel;
-			productName = Hotel;
-			productReference = 660604CB2A092091008C728F /* Hotel.app */;
+			productName = "Management Bill";
+			productReference = 6698D7A82A094F6500EFE5FA /* Hotel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		660604E12A092094008C728F /* HotelTests */ = {
+		6698D7BB2A094F6900EFE5FA /* HotelTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 660604EE2A092094008C728F /* Build configuration list for PBXNativeTarget "HotelTests" */;
+			buildConfigurationList = 6698D7D32A094F6900EFE5FA /* Build configuration list for PBXNativeTarget "HotelTests" */;
 			buildPhases = (
-				660604DE2A092094008C728F /* Sources */,
-				660604DF2A092094008C728F /* Frameworks */,
-				660604E02A092094008C728F /* Resources */,
+				6698D7B82A094F6900EFE5FA /* Sources */,
+				6698D7B92A094F6900EFE5FA /* Frameworks */,
+				6698D7BA2A094F6900EFE5FA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				660604E42A092094008C728F /* PBXTargetDependency */,
+				6698D7BE2A094F6900EFE5FA /* PBXTargetDependency */,
 			);
 			name = HotelTests;
-			productName = HotelTests;
-			productReference = 660604E22A092094008C728F /* HotelTests.xctest */;
+			productName = "Management BillTests";
+			productReference = 6698D7BC2A094F6900EFE5FA /* HotelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6698D7C62A094F6900EFE5FA /* HotelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6698D7D62A094F6900EFE5FA /* Build configuration list for PBXNativeTarget "HotelUITests" */;
+			buildPhases = (
+				6698D7C32A094F6900EFE5FA /* Sources */,
+				6698D7C42A094F6900EFE5FA /* Frameworks */,
+				6698D7C52A094F6900EFE5FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6698D7C92A094F6900EFE5FA /* PBXTargetDependency */,
+			);
+			name = HotelUITests;
+			productName = "Management BillUITests";
+			productReference = 6698D7C72A094F6900EFE5FA /* HotelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		660604C32A092091008C728F /* Project object */ = {
+		6698D7A02A094F6400EFE5FA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = fit.tdc;
 				TargetAttributes = {
-					660604CA2A092091008C728F = {
+					6698D7A72A094F6400EFE5FA = {
 						CreatedOnToolsVersion = 10.3;
 					};
-					660604E12A092094008C728F = {
+					6698D7BB2A094F6900EFE5FA = {
 						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 660604CA2A092091008C728F;
+						TestTargetID = 6698D7A72A094F6400EFE5FA;
+					};
+					6698D7C62A094F6900EFE5FA = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 6698D7A72A094F6400EFE5FA;
 					};
 				};
 			};
-			buildConfigurationList = 660604C62A092091008C728F /* Build configuration list for PBXProject "Hotel" */;
+			buildConfigurationList = 6698D7A32A094F6400EFE5FA /* Build configuration list for PBXProject "Hotel" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -172,29 +212,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 660604C22A092091008C728F;
-			productRefGroup = 660604CC2A092091008C728F /* Products */;
+			mainGroup = 6698D79F2A094F6400EFE5FA;
+			productRefGroup = 6698D7A92A094F6500EFE5FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				660604CA2A092091008C728F /* Hotel */,
-				660604E12A092094008C728F /* HotelTests */,
+				6698D7A72A094F6400EFE5FA /* Hotel */,
+				6698D7BB2A094F6900EFE5FA /* HotelTests */,
+				6698D7C62A094F6900EFE5FA /* HotelUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		660604C92A092091008C728F /* Resources */ = {
+		6698D7A62A094F6400EFE5FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660604DC2A092094008C728F /* LaunchScreen.storyboard in Resources */,
-				660604D92A092094008C728F /* Assets.xcassets in Resources */,
-				660604D42A092091008C728F /* Main.storyboard in Resources */,
+				6698D7B62A094F6900EFE5FA /* LaunchScreen.storyboard in Resources */,
+				6698D7B32A094F6900EFE5FA /* Assets.xcassets in Resources */,
+				6698D7B12A094F6500EFE5FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		660604E02A092094008C728F /* Resources */ = {
+		6698D7BA2A094F6900EFE5FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6698D7C52A094F6900EFE5FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,47 +252,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		660604C72A092091008C728F /* Sources */ = {
+		6698D7A42A094F6400EFE5FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660604D12A092091008C728F /* ViewController.swift in Sources */,
-				660604CF2A092091008C728F /* AppDelegate.swift in Sources */,
-				660604D72A092091008C728F /* Hotel.xcdatamodeld in Sources */,
+				6698D7AE2A094F6500EFE5FA /* ViewController.swift in Sources */,
+				6698D7AC2A094F6500EFE5FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		660604DE2A092094008C728F /* Sources */ = {
+		6698D7B82A094F6900EFE5FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660604E72A092094008C728F /* HotelTests.swift in Sources */,
+				6698D7C12A094F6900EFE5FA /* Management_BillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6698D7C32A094F6900EFE5FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6698D7CC2A094F6900EFE5FA /* Management_BillUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		660604E42A092094008C728F /* PBXTargetDependency */ = {
+		6698D7BE2A094F6900EFE5FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 660604CA2A092091008C728F /* Hotel */;
-			targetProxy = 660604E32A092094008C728F /* PBXContainerItemProxy */;
+			target = 6698D7A72A094F6400EFE5FA /* Hotel */;
+			targetProxy = 6698D7BD2A094F6900EFE5FA /* PBXContainerItemProxy */;
+		};
+		6698D7C92A094F6900EFE5FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6698D7A72A094F6400EFE5FA /* Hotel */;
+			targetProxy = 6698D7C82A094F6900EFE5FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		660604D22A092091008C728F /* Main.storyboard */ = {
+		6698D7AF2A094F6500EFE5FA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				660604D32A092091008C728F /* Base */,
+				6698D7B02A094F6500EFE5FA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		660604DA2A092094008C728F /* LaunchScreen.storyboard */ = {
+		6698D7B42A094F6900EFE5FA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				660604DB2A092094008C728F /* Base */,
+				6698D7B52A094F6900EFE5FA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -252,7 +312,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		660604E92A092094008C728F /* Debug */ = {
+		6698D7CE2A094F6900EFE5FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -313,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		660604EA2A092094008C728F /* Release */ = {
+		6698D7CF2A094F6900EFE5FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -368,53 +428,53 @@
 			};
 			name = Release;
 		};
-		660604EC2A092094008C728F /* Debug */ = {
+		6698D7D12A094F6900EFE5FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Hotel/Info.plist;
+				INFOPLIST_FILE = "Management Bill/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.tdc.Hotel;
+				PRODUCT_BUNDLE_IDENTIFIER = "tdc.edu.vn.Management-Bill";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		660604ED2A092094008C728F /* Release */ = {
+		6698D7D22A094F6900EFE5FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Hotel/Info.plist;
+				INFOPLIST_FILE = "Management Bill/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.tdc.Hotel;
+				PRODUCT_BUNDLE_IDENTIFIER = "tdc.edu.vn.Management-Bill";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		660604EF2A092094008C728F /* Debug */ = {
+		6698D7D42A094F6900EFE5FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HotelTests/Info.plist;
+				INFOPLIST_FILE = "Management BillTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.tdc.HotelTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "tdc.edu.vn.Management-BillTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -422,70 +482,104 @@
 			};
 			name = Debug;
 		};
-		660604F02A092094008C728F /* Release */ = {
+		6698D7D52A094F6900EFE5FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = HotelTests/Info.plist;
+				INFOPLIST_FILE = "Management BillTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = vn.edu.tdc.HotelTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "tdc.edu.vn.Management-BillTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hotel.app/Hotel";
+			};
+			name = Release;
+		};
+		6698D7D72A094F6900EFE5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Management BillUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tdc.edu.vn.Management-BillUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Management Bill";
+			};
+			name = Debug;
+		};
+		6698D7D82A094F6900EFE5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Management BillUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tdc.edu.vn.Management-BillUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Management Bill";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		660604C62A092091008C728F /* Build configuration list for PBXProject "Hotel" */ = {
+		6698D7A32A094F6400EFE5FA /* Build configuration list for PBXProject "Hotel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				660604E92A092094008C728F /* Debug */,
-				660604EA2A092094008C728F /* Release */,
+				6698D7CE2A094F6900EFE5FA /* Debug */,
+				6698D7CF2A094F6900EFE5FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		660604EB2A092094008C728F /* Build configuration list for PBXNativeTarget "Hotel" */ = {
+		6698D7D02A094F6900EFE5FA /* Build configuration list for PBXNativeTarget "Hotel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				660604EC2A092094008C728F /* Debug */,
-				660604ED2A092094008C728F /* Release */,
+				6698D7D12A094F6900EFE5FA /* Debug */,
+				6698D7D22A094F6900EFE5FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		660604EE2A092094008C728F /* Build configuration list for PBXNativeTarget "HotelTests" */ = {
+		6698D7D32A094F6900EFE5FA /* Build configuration list for PBXNativeTarget "HotelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				660604EF2A092094008C728F /* Debug */,
-				660604F02A092094008C728F /* Release */,
+				6698D7D42A094F6900EFE5FA /* Debug */,
+				6698D7D52A094F6900EFE5FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6698D7D62A094F6900EFE5FA /* Build configuration list for PBXNativeTarget "HotelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6698D7D72A094F6900EFE5FA /* Debug */,
+				6698D7D82A094F6900EFE5FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		660604D52A092091008C728F /* Hotel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				660604D62A092091008C728F /* Hotel.xcdatamodel */,
-			);
-			currentVersion = 660604D62A092091008C728F /* Hotel.xcdatamodel */;
-			path = Hotel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 660604C32A092091008C728F /* Project object */;
+	rootObject = 6698D7A02A094F6400EFE5FA /* Project object */;
 }
